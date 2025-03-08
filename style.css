@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Container Layout */
+.container {
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.sidebar img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.sidebar h1 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.sidebar p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.sidebar h2 {
+    margin-top: 20px;
+    font-size: 18px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    background: #34495e;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* Main Content */
+.content {
+    padding: 20px;
+    width: 70%;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+}
+
+.job, .degree, .project {
+    background: #ecf0f1;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+h3 {
+    margin: 5px 0;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+em {
+    color: #7f8c8d;
+}
